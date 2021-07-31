@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" href="styles.css">
+		<script type="module" src="script.js"></script>
+		<style>
+			.eliminate {
+				padding: 0px;
+				margin: 0px;
+			}
+
+			.header-background {
+				background-image: url('useful-background.jpeg');
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-attachment: fixed;
+			}
+
+			.title {
+				text-align: center;
+				font-family: "Abril Fatface";
+				font-size: 70px;
+				letter-spacing: 5px;
+				padding-top: 9rem;
+				padding-bottom: 0rem;
+				margin: 0px;
+			}
+
+			.title-background {
+				background-image: url('website-background.jpg');
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-attachment: fixed;
+				color: white;
+				text-align: center;
+				opacity: 0.75;
+			}
+
+			.object-background {
+				background-image: url('object-background.jpg');
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-attachment: fixed;
+			}
+
+			.footer {
+				text-align: center;
+			}
+
+			.topnav {
+				overflow: hidden;
+				padding: 20px 30px
+			}
+
+			/* Style the links inside the navigation bar */
+			.topnav a {
+				float: left;
+				color: white;
+				text-align: center;
+				padding: 10px 25px 10px 25px;
+				text-decoration: none;
+				font-size: 25px;
+			}
+
+			/* Change the color of links on hover */
+			.topnav a:hover {
+				background-color: black;
+				color: white;
+			}
+
+			div.gallery {
+				margin: 27px;
+				border: 1px solid #ccc;
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+				float: left;
+				width: 300px;
+			}
+
+			div.gallery:hover {
+				border: 3px solid #777;
+			}
+
+			div.gallery img {
+				width: 100%;
+				height: auto;
+			}
+
+			div.desc {
+				padding: 15px;
+				text-align: center;
+			}
+
+			.center {
+				background-image: url('podcast-background.jpg');
+			}
+		</style>
+	</head>
+
+	<body class="eliminate">
+		<header class="header-background">
+			<nav class="topnav">
+				<p><a href="index.html">Home</a></p>
+				<p><a href="podcast.html">Podcast</a></p>
+				<p><a href="website.html">Website</a></p>
+				<p><a href="essay.html">Essay</a></p>
+				<p><a href="book.html">Book</a></p>
+				<p><a href="learning.html">Learning</a></p>
+				<p><a href="other.html">Other</a></p>
+			</nav>
+			<p></p>
+		</header>
+		<div class="title-background">
+			<p class="title"><b>WEBSITE MAKING</b></p>
+			<p style="padding-bottom: 6rem; font-size: 32px;">Jump to the selected web page when click on it</p>
+		</div>
+		<br>
+		<div style="background-image: url('useful-background.jpeg'); background-repeat: no-repeat; background-size: cover; color: white; text-align: center; font-size: 25px; padding: 1rem 1rem;">
+			<p>Does making a website of your own sounds satisify for you? Start designing your own website starting today!</p>
+		</div>
+		<br>
+		<div class="center">
+			<div class="gallery">
+				<a target="_blank" href="https://www.wix.com">
+					<img src="website-wix.png" alt="Wix" width="1000" height="800">
+				</a>
+				<div class="desc">Wix</div>
+			</div>
+
+			<div class="gallery">
+				<a target="_blank" href="https://webflow.com">
+					<img src="website-webflow.png" alt="Webflow" width="1000" height="800">
+				</a>
+				<div class="desc">Webflow</div>
+			</div>
+
+			<div class="gallery">
+				<a target="_blank" href="https://sites.google.com">
+					<img src="website-google.png" alt="Google Sites" width="1000" height="800">
+				</a>
+				<div class="desc">Google Sites</div>
+			</div>
+
+			<div class="gallery">
+				<a target="_blank" href="https://www.squarespace.com">
+					<img src="website-square.png" alt="Square Space" width="1000" height="800">
+				</a>
+				<div class="desc">Square Space</div>
+			</div>
+			
+		</div>
+	</body>
+
+</html>
